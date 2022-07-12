@@ -27,7 +27,7 @@ export const html = () => {
     )*/
 
       .pipe(app.plagin.replace(/@img\//g, "img/"))
-      .pipe(webpHtmlNoSvg())
+      
       .pipe(
         versionNumber({
           value: "%DT%",

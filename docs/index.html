@@ -4,17 +4,17 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.min.css?_v=20220617111415" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20220712151652" />
   <title>Головна сторінка</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Philosopher:wght@400;700&display=swap&_v=20220617111415"
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap&_v=20220712151652"
     rel="stylesheet"
   />
   <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220617111415"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220712151652"
   />
 </head>
 
@@ -42,9 +42,9 @@
           <a href="tel:+380951315095">095 131 50 95</a>
         </div>
         <div class="header__social">
-          <a href="#"><img src="img/telegram.svg" alt="telegram" /></a
-          ><a href="#"><img src="img/instagram.svg" alt="instagram" /></a
-          ><a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
+          <a href="#"><img src="img/tg.svg" alt="telegram" /></a
+          ><a href="#"><img src="img/inst.svg" alt="instagram" /></a
+          ><a href="#"><img src="img/fb.svg" alt="facebook" /></a>
         </div>
       </div>
       <div class="header__cart">
@@ -61,29 +61,25 @@
       <section class="hero">
         <div class="container">
           <div class="hero__flex">
-            <div class="hero__detail">
-              <h1>Штори<br />на ваш смак</h1>
+            <div class="hero__left">
+              <h1>Штори на ваш смак</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <a href="#" class="btn">Обрати</a>
+              <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a href="" class="btn btn-color">Обрати</a>
             </div>
-            <div class="hero__slider swiper">
+            <div class="hero__right swiper">
               <div class="swiper-wrapper">
                 <div class="hero__slide swiper-slide">
-                  <picture><source srcset="img/homeSlide.webp" type="image/webp"><img src="img/homeSlide.png" alt="slide" /></picture>
+                  <img src="img/slide.png" alt="" />
                 </div>
                 <div class="hero__slide swiper-slide">
-                  <picture><source srcset="img/homeSlide.webp" type="image/webp"><img src="img/homeSlide.png" alt="slide" /></picture>
-                </div>
-                <div class="hero__slide swiper-slide">
-                  <picture><source srcset="img/homeSlide.webp" type="image/webp"><img src="img/homeSlide.png" alt="slide" /></picture>
-                </div>
-                <div class="hero__slide swiper-slide">
-                  <picture><source srcset="img/homeSlide.webp" type="image/webp"><img src="img/homeSlide.png" alt="slide" /></picture>
+                  <img src="img/baner.png" alt="" />
                 </div>
               </div>
               <div class="swiper-pagination"></div>
@@ -91,267 +87,312 @@
           </div>
         </div>
       </section>
-      <section class="benefit">
+      <section class="bg-gray service">
         <div class="container">
-          <div class="section__title">
+          <div class="sectio__title">
             <h2>Наші переваги</h2>
           </div>
-          <div class="benefit__flex">
-            <div class="benefit__item">
-              <span>01</span>
-              <div class="benefit__img">
-                <img src="img/class.svg" alt="class" />
+          <div class="service__flex">
+            <div class="service__item">
+              <div class="service__img">
+                <img src="img/service.svg" alt="" />
               </div>
-              <div class="benefit__detail">
-                <p>15 років на ринку</p>
-              </div>
+              <p>15 років на ринку</p>
             </div>
-            <div class="benefit__item">
-              <span>02</span>
-              <div class="benefit__img">
-                <img src="img/handStart.svg" alt="class" />
+            <div class="service__item">
+              <div class="service__img">
+                <img src="img/service.svg" alt="" />
               </div>
-              <div class="benefit__detail">
-                <p>індивідуальний підхід до клієнта</p>
-              </div>
+              <p>Індивідуальний підхід до клієнта</p>
             </div>
-            <div class="benefit__item">
-              <span>03</span>
-              <div class="benefit__img">
-                <img src="img/label.svg" alt="class" />
+            <div class="service__item">
+              <div class="service__img">
+                <img src="img/service.svg" alt="" />
               </div>
-              <div class="benefit__detail">
-                <p>більше 1000 товарів</p>
-              </div>
+              <p>Більше 1000 товарів</p>
             </div>
-            <div class="benefit__item">
-              <span>04</span>
-              <div class="benefit__img">
-                <img src="img/startBox.svg" alt="class" />
+            <div class="service__item">
+              <div class="service__img">
+                <img src="img/service.svg" alt="" />
               </div>
-              <div class="benefit__detail">
-                <p>термін виготовлення до 5 днів</p>
-              </div>
+              <p>Термін виготовлення до 5 днів</p>
             </div>
-            <div class="benefit__item">
-              <span>05</span>
-              <div class="benefit__img">
-                <img src="img/startMoney.svg" alt="class" />
+            <div class="service__item">
+              <div class="service__img">
+                <img src="img/service.svg" alt="" />
               </div>
-              <div class="benefit__detail">
-                <p>без предоплати</p>
-              </div>
+              <p>Без предоплати</p>
             </div>
-            <div class="benefit__item">
-              <span>06</span>
-              <div class="benefit__img">
-                <img src="img/vip.svg" alt="class" />
+            <div class="service__item">
+              <div class="service__img">
+                <img src="img/service.svg" alt="" />
               </div>
-              <div class="benefit__detail">
-                <p>якісна тканина</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="cell">
-        <div class="container">
-          <div class="section__title">
-            <h2>Топ продаж</h2>
-          </div>
-          <div class="tovar__flex swiper">
-            <div class="swiper-wrapper">
-              <div class="tovar__item swiper-slide">
-                <div class="tover__img">
-                  <picture><source srcset="img/tovar.webp" type="image/webp"><img src="img/tovar.png" alt="" /></picture>
-                </div>
-                <div class="tovar__detail">
-                  <span class="tovar__article">Код: 220312</span>
-                  <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
-                  <p>В наявності</p>
-                  <div class="tovar__price">
-                    <span>3 480</span>
-                    <p>грн/комплект</p>
-                  </div>
-                </div>
-                <a href="" class="tovar__cart">
-                  <picture><source srcset="img/bag.webp" type="image/webp"><img src="img/bag.png" alt="" /></picture>
-                </a>
-              </div>
-              <div class="tovar__item swiper-slide">
-                <div class="tover__img">
-                  <picture><source srcset="img/tovar.webp" type="image/webp"><img src="img/tovar.png" alt="" /></picture>
-                </div>
-                <div class="tovar__detail">
-                  <span class="tovar__article">Код: 220312</span>
-                  <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
-                  <p>В наявності</p>
-                  <div class="tovar__price">
-                    <span>3 480</span>
-                    <p>грн/комплект</p>
-                  </div>
-                </div>
-                <a href="" class="tovar__cart">
-                  <picture><source srcset="img/bag.webp" type="image/webp"><img src="img/bag.png" alt="" /></picture>
-                </a>
-              </div>
-              <div class="tovar__item swiper-slide">
-                <div class="tover__img">
-                  <picture><source srcset="img/tovar.webp" type="image/webp"><img src="img/tovar.png" alt="" /></picture>
-                </div>
-                <div class="tovar__detail">
-                  <span class="tovar__article">Код: 220312</span>
-                  <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
-                  <p>В наявності</p>
-                  <div class="tovar__price">
-                    <span>3 480</span>
-                    <p>грн/комплект</p>
-                  </div>
-                </div>
-                <a href="" class="tovar__cart">
-                  <picture><source srcset="img/bag.webp" type="image/webp"><img src="img/bag.png" alt="" /></picture>
-                </a>
-              </div>
-              <div class="tovar__item swiper-slide">
-                <div class="tover__img">
-                  <picture><source srcset="img/tovar.webp" type="image/webp"><img src="img/tovar.png" alt="" /></picture>
-                </div>
-                <div class="tovar__detail">
-                  <span class="tovar__article">Код: 220312</span>
-                  <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
-                  <p>В наявності</p>
-                  <div class="tovar__price">
-                    <span>3 480</span>
-                    <p>грн/комплект</p>
-                  </div>
-                </div>
-                <a href="" class="tovar__cart">
-                  <picture><source srcset="img/bag.webp" type="image/webp"><img src="img/bag.png" alt="" /></picture>
-                </a>
-              </div>
-              <div class="tovar__item swiper-slide">
-                <div class="tover__img">
-                  <picture><source srcset="img/tovar.webp" type="image/webp"><img src="img/tovar.png" alt="" /></picture>
-                </div>
-                <div class="tovar__detail">
-                  <span class="tovar__article">Код: 220312</span>
-                  <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
-                  <p>В наявності</p>
-                  <div class="tovar__price">
-                    <span>3 480</span>
-                    <p>грн/комплект</p>
-                  </div>
-                </div>
-                <a href="" class="tovar__cart">
-                  <picture><source srcset="img/bag.webp" type="image/webp"><img src="img/bag.png" alt="" /></picture>
-                </a>
-              </div>
-              <div class="tovar__item swiper-slide">
-                <div class="tover__img">
-                  <picture><source srcset="img/tovar.webp" type="image/webp"><img src="img/tovar.png" alt="" /></picture>
-                </div>
-                <div class="tovar__detail">
-                  <span class="tovar__article">Код: 220312</span>
-                  <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
-                  <p>В наявності</p>
-                  <div class="tovar__price">
-                    <span>3 480</span>
-                    <p>грн/комплект</p>
-                  </div>
-                </div>
-                <a href="" class="tovar__cart">
-                  <picture><source srcset="img/bag.webp" type="image/webp"><img src="img/bag.png" alt="" /></picture>
-                </a>
-              </div>
-            </div>
-            <div class="swiper-button-prev">
-              <img src="img/prev.svg" alt="" />
-            </div>
-            <div class="swiper-button-next">
-              <img src="img/next.svg" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="baner"
-        style="background: url(./img/baner.png) center center/cover no-repeat"
-      >
-        <div class="container">
-          <div class="baner__flex">
-            <div class="baner__description">
-              <h3>
-                При замовленні від 3 000 гривень отримай комплект подушок у
-                подарунок!
-              </h3>
+              <p>Якісна тканина</p>
             </div>
           </div>
         </div>
       </section>
       <section>
         <div class="container">
-          <div class="section__title">
-            <h2>Instagram</h2>
+          <div class="sectio__title">
+            <h2>Каталог</h2>
+            <a href="">Перейти в каталог</a>
           </div>
-          <div class="news__slider swiper">
-            <div class="swiper-wrapper">
-              <a
-                class="swiper-slide news__item"
-                href="https://www.instagram.com"
-                target="_blank"
-              >
-                <div class="news__img">
-                  <picture><source srcset="img/news1.webp" type="image/webp"><img src="img/news1.png" alt="" /></picture>
+          <div class="catalog">
+            <div class="catalog__slider swiper">
+              <div class="swiper-wrapper">
+                <div class="catalog__item swiper-slide">
+                  <a class="catalog__img" href="#">
+                    <img src="img/tovar.png" alt="" />
+                  </a>
+                  <div class="catalog__detail">
+                    <div class="catalog__atr">
+                      <div class="art">
+                        <p>Код: 220312</p>
+                      </div>
+                      <div class="availability">
+                        <span>В наявності</span>
+                      </div>
+                    </div>
+                    <div class="catalog__title">
+                      <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
+                    </div>
+                    <div class="catalog__price">
+                      <p>3 480<span>грн/комплект</span></p>
+                    </div>
+                    <div class="catalog__button">
+                      <a href="" class="btn btn-color">Купити</a>
+                      <a href="" class="btn">В корзину</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="news__detail">
-                  <span>@firanka_shop</span>
-                  <p>Розігруємо 3 подушки з Арестовичем</p>
+                <div class="catalog__item swiper-slide">
+                  <a class="catalog__img" href="#">
+                    <img src="img/tovar2.png" alt="" />
+                  </a>
+                  <div class="catalog__detail">
+                    <div class="catalog__atr">
+                      <div class="art">
+                        <p>Код: 220312</p>
+                      </div>
+                      <div class="availability">
+                        <span>В наявності</span>
+                      </div>
+                    </div>
+                    <div class="catalog__title">
+                      <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
+                    </div>
+                    <div class="catalog__price">
+                      <p>3 480<span>грн/комплект</span></p>
+                    </div>
+                    <div class="catalog__button">
+                      <a href="" class="btn btn-color">Купити</a>
+                      <a href="" class="btn">В корзину</a>
+                    </div>
+                  </div>
                 </div>
-              </a>
-              <a
-                class="swiper-slide news__item"
-                href="https://www.instagram.com"
-                target="_blank"
-              >
-                <div class="news__img">
-                  <picture><source srcset="img/news2.webp" type="image/webp"><img src="img/news2.png" alt="" /></picture>
+                <div class="catalog__item swiper-slide">
+                  <a class="catalog__img" href="#">
+                    <img src="img/tovar3.png" alt="" />
+                  </a>
+                  <div class="catalog__detail">
+                    <div class="catalog__atr">
+                      <div class="art">
+                        <p>Код: 220312</p>
+                      </div>
+                      <div class="availability">
+                        <span>В наявності</span>
+                      </div>
+                    </div>
+                    <div class="catalog__title">
+                      <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
+                    </div>
+                    <div class="catalog__price">
+                      <p>3 480<span>грн/комплект</span></p>
+                    </div>
+                    <div class="catalog__button">
+                      <a href="" class="btn btn-color">Купити</a>
+                      <a href="" class="btn">В корзину</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="news__detail">
-                  <span>@firanka_shop</span>
-                  <p>Розігруємо 3 подушки з Арестовичем</p>
-                </div>
-              </a>
-              <a
-                class="swiper-slide news__item"
-                href="https://www.instagram.com"
-                target="_blank"
-              >
-                <div class="news__img">
-                  <picture><source srcset="img/news3.webp" type="image/webp"><img src="img/news3.png" alt="" /></picture>
-                </div>
-                <div class="news__detail">
-                  <span>@firanka_shop</span>
-                  <p>Розігруємо 3 подушки з Арестовичем</p>
-                </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="gallery">
+      <section class="bg-gray">
         <div class="container">
-          <div class="section__title">
+          <div class="baner__flex">
+            <div class="baner__info">
+              <h2>При замовленнi на 2000 гривень отримай комплект подушок  в подарунок!</h2>
+              <a href="" class="btn">Розпочати</a>
+            </div>
+            <div class="baner__img">
+              <img src="img/baner.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="sectio__title">
+            <h2>Наш інстаграм</h2>
+          </div>
+          <div class="instagram">
+            <a
+              class="instagram__item"
+              href="https://www.instagram.com"
+              target="_blank"
+            >
+              <img src="img/instagram.png" alt="" />
+            </a>
+            <a
+              class="instagram__item"
+              href="https://www.instagram.com"
+              target="_blank"
+            >
+              <img src="img/instagram2.png" alt="" />
+            </a>
+            <a
+              class="instagram__item"
+              href="https://www.instagram.com"
+              target="_blank"
+            >
+              <img src="img/instagram3.png" alt="" />
+            </a>
+            <a
+              class="instagram__item"
+              href="https://www.instagram.com"
+              target="_blank"
+            >
+              <img src="img/instagram4.png" alt="" />
+            </a>
+            <a
+              class="instagram__item"
+              href="https://www.instagram.com"
+              target="_blank"
+            >
+              <img src="img/instagram5.png" alt="" />
+            </a>
+            <a
+              class="instagram__item"
+              href="https://www.instagram.com"
+              target="_blank"
+            >
+              <img src="img/instagram6.png" alt="" />
+            </a>
+            <a
+              class="instagram__item"
+              href="https://www.instagram.com"
+              target="_blank"
+            >
+              <img src="img/instagram7.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="bg-gray">
+        <div class="container">
+          <div class="sectio__title">
+            <h2>Топ продаж</h2>
+            <a href="">Перейти в каталог</a>
+          </div>
+          <div class="catalog">
+            <div class="catalog__slider swiper">
+              <div class="swiper-wrapper">
+                <div class="catalog__item swiper-slide">
+                  <a class="catalog__img" href="#">
+                    <img src="img/tovar.png" alt="" />
+                  </a>
+                  <div class="catalog__detail">
+                    <div class="catalog__atr">
+                      <div class="art">
+                        <p>Код: 220312</p>
+                      </div>
+                      <div class="availability">
+                        <span>В наявності</span>
+                      </div>
+                    </div>
+                    <div class="catalog__title">
+                      <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
+                    </div>
+                    <div class="catalog__price">
+                      <p>3 480<span>грн/комплект</span></p>
+                    </div>
+                    <div class="catalog__button">
+                      <a href="" class="btn btn-color">Купити</a>
+                      <a href="" class="btn">В корзину</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item swiper-slide">
+                  <a class="catalog__img" href="#">
+                    <img src="img/tovar2.png" alt="" />
+                  </a>
+                  <div class="catalog__detail">
+                    <div class="catalog__atr">
+                      <div class="art">
+                        <p>Код: 220312</p>
+                      </div>
+                      <div class="availability">
+                        <span>В наявності</span>
+                      </div>
+                    </div>
+                    <div class="catalog__title">
+                      <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
+                    </div>
+                    <div class="catalog__price">
+                      <p>3 480<span>грн/комплект</span></p>
+                    </div>
+                    <div class="catalog__button">
+                      <a href="" class="btn btn-color">Купити</a>
+                      <a href="" class="btn">В корзину</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item swiper-slide">
+                  <a class="catalog__img" href="#">
+                    <img src="img/tovar3.png" alt="" />
+                  </a>
+                  <div class="catalog__detail">
+                    <div class="catalog__atr">
+                      <div class="art">
+                        <p>Код: 220312</p>
+                      </div>
+                      <div class="availability">
+                        <span>В наявності</span>
+                      </div>
+                    </div>
+                    <div class="catalog__title">
+                      <h3>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h3>
+                    </div>
+                    <div class="catalog__price">
+                      <p>3 480<span>грн/комплект</span></p>
+                    </div>
+                    <div class="catalog__button">
+                      <a href="" class="btn btn-color">Купити</a>
+                      <a href="" class="btn">В корзину</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="sectio__title">
             <h2>Портфоліо</h2>
           </div>
-          <div class="portfolio__flex">
+          <div class="portfolio">
             <div
               class="portfolio__item"
               data-fancybox="gallery"
               data-src="img/portfolio1.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio1.webp" type="image/webp"><img src="img/portfolio1.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio1.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
@@ -361,9 +402,7 @@
               data-fancybox="gallery"
               data-src="img/portfolio2.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio2.webp" type="image/webp"><img src="img/portfolio2.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio2.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
@@ -373,9 +412,7 @@
               data-fancybox="gallery"
               data-src="img/portfolio3.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio3.webp" type="image/webp"><img src="img/portfolio3.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio3.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
@@ -385,9 +422,7 @@
               data-fancybox="gallery"
               data-src="img/portfolio4.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio4.webp" type="image/webp"><img src="img/portfolio4.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio4.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
@@ -397,9 +432,7 @@
               data-fancybox="gallery"
               data-src="img/portfolio5.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio5.webp" type="image/webp"><img src="img/portfolio5.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio5.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
@@ -409,9 +442,7 @@
               data-fancybox="gallery"
               data-src="img/portfolio6.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio6.webp" type="image/webp"><img src="img/portfolio6.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio6.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
@@ -421,9 +452,7 @@
               data-fancybox="gallery"
               data-src="img/portfolio7.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio7.webp" type="image/webp"><img src="img/portfolio7.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio7.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
@@ -433,9 +462,7 @@
               data-fancybox="gallery"
               data-src="img/portfolio8.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio8.webp" type="image/webp"><img src="img/portfolio8.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio8.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
@@ -445,9 +472,7 @@
               data-fancybox="gallery"
               data-src="img/portfolio9.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio9.webp" type="image/webp"><img src="img/portfolio9.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio9.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
@@ -457,47 +482,35 @@
               data-fancybox="gallery"
               data-src="img/portfolio5.png"
             >
-              <div class="portfolio__img">
-                <picture><source srcset="img/portfolio5.webp" type="image/webp"><img src="img/portfolio5.png" alt="" /></picture>
-              </div>
+              <img src="img/portfolio5.png" alt="" />
               <div class="portfolio__zoom">
                 <img src="img/zoom.svg" alt="" />
               </div>
             </div>
           </div>
-          <a href="" class="btn">Дивитись більше</a>
         </div>
       </section>
-      <section class="form">
+      <section class="bg-gray home-form">
         <div class="container">
-          <div class="section__title">
-            <h2>Замовити дзвінок</h2>
-            <p>
-              Ви можете задати будь яке питання і ми постараємось дати відповідь
-              на нього як найшвидше
-            </p>
-          </div>
-          <div class="home__form">
-            <form>
-              <div class="user-box">
-                <input type="text" name="" required="" />
-                <label>Ім’я</label>
-              </div>
-              <div class="user-box">
-                <input type="tel" name="" required="" />
-                <label>Телефон</label>
-              </div>
-              <div class="user-box">
-                <textarea name="" id="" cols="30" rows="10" required></textarea>
-                <label>Питання</label>
-              </div>
-              <label class="custom__cheackbox"
-                >Даю згоду на обробку персональних даних
-                <input type="checkbox" checked="checked" />
+          <div class="form__flex">
+            <form action="">
+              <h2>Замовити дзвінок</h2>
+              <p>
+                Ви можете задати будь яке питання і ми постараємось дати
+                відповідь на нього як найшвидше
+              </p>
+              <input type="text" name="" id="" placeholder="Ім’я" />
+              <input type="tel" name="" id="" placeholder="Телефон">
+              <textarea name="" id=""  rows="10" placeholder="Питання"></textarea>
+              <label class="custom__checkbox">Даю згоду  на обробку персональних даних
+                <input type="checkbox" >
                 <span class="checkmark"></span>
               </label>
-              <button type="submit">Замовити</button>
+              <button class="btn btn-color">Замовити</button>
             </form>
+            <div class="form__img">
+              <img src="img/homeForm.png" alt="" />
+            </div>
           </div>
         </div>
       </section>
@@ -506,7 +519,7 @@
   <div class="container">
     <div class="footer__flex">
       <div class="footer__logo">
-        <picture><source srcset="img/footerLogo.webp" type="image/webp"><img src="img/footerLogo.png" alt="" /></picture>
+        <img src="img/logo.svg" alt="" />
       </div>
       <div class="footer__menu">
         <a href="">Каталог</a>
@@ -515,9 +528,6 @@
           <li><a href="">Вироби до підвіконня</a></li>
           <li><a href="">Вироби до підлоги</a></li>
           <li><a href="">Японські штори</a></li>
-          <li><a href="">Римські штори</a></li>
-          <li><a href="">Декоративні подушки</a></li>
-          <li><a href="">Інше</a></li>
         </ul>
       </div>
       <div class="footer__menu">
@@ -536,15 +546,15 @@
           <a href="tel:+380951315095">095 131 50 95</a>
         </div>
         <div class="footer__social">
-          <a href=""><picture><source srcset="img/tg.webp" type="image/webp"><img src="img/tg.png" alt="" /></picture></a
-          ><a href=""><picture><source srcset="img/inst.webp" type="image/webp"><img src="img/inst.png" alt="" /></picture></a
-          ><a href=""><picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" alt="" /></picture></a>
+          <a href=""><img src="img/tg.svg" alt="" /></a
+          ><a href=""><img src="img/inst.svg" alt="" /></a
+          ><a href=""><img src="img/fb.svg" alt="" /></a>
         </div>
       </div>
     </div>
   </div>
 </footer>
 
-    <script src="js/main.min.js?_v=20220617111415"></script>
+    <script src="js/main.min.js?_v=20220712151652"></script>
   </body>
 </html>
