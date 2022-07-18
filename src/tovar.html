@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{ "title": "Товар" })
+  <body>
+    @@include('html/header.html')
+    <main>
+      <section class="breadcrumbs" id="breadcrumbs">
+        <div class="container">
+          <ul>
+            <li><a href="">Головна</a></li>
+            <li><a href="">Каталог</a></li>
+            <li><a href="">Ламбрекени</a></li>
+            <li class="active"><a href="">Ажурний жорсткий ламбрекен</a></li>
+          </ul>
+          <form action="">
+            <input type="search" name="" id="" placeholder="Пошук" />
+            <button type="submit">
+              <svg
+                viewBox="0 0 33 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M32.6109 30.747L20.9639 19.2169C26.185 12.4744 23.0891 0.198795 11.7098 0C-3.90327 0.26506 -3.90327 23.259 11.7098 23.5241C14.7052 23.4744 17.1317 22.5798 18.9725 21.1717L30.72 32.619C30.9877 32.8675 31.3391 33 31.6738 33C32.0085 33 32.3599 32.8675 32.6109 32.619C33.1297 32.1054 33.1297 31.2605 32.6109 30.747ZM11.7098 2.6506C23.8087 2.8494 23.8087 20.6747 11.7098 20.8735C-0.389071 20.6581 -0.372336 2.86596 11.7098 2.6506Z"
+                  fill="#A4B0BE"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="tovar__flex">
+            <div class="tovar__gallery">
+              <div class="gallery__thumbs swiper">
+                <div class="swiper-wrapper">
+                  <div class="gallery__thumbs-item swiper-slide">
+                    <img src="@img/instagram.png" alt="" />
+                  </div>
+                  <div class="gallery__thumbs-item swiper-slide">
+                    <img src="@img/instagram2.png" alt="" />
+                  </div>
+                  <div class="gallery__thumbs-item swiper-slide">
+                    <img src="@img/instagram3.png" alt="" />
+                  </div>
+                  <div class="gallery__thumbs-item swiper-slide">
+                    <img src="@img/instagram.png" alt="" />
+                  </div>
+                  <div class="gallery__thumbs-item swiper-slide">
+                    <img src="@img/instagram2.png" alt="" />
+                  </div>
+                  <div class="gallery__thumbs-item swiper-slide">
+                    <img src="@img/instagram3.png" alt="" />
+                  </div>
+                  <div class="gallery__thumbs-item swiper-slide">
+                    <img src="@img/instagram2.png" alt="" />
+                  </div>
+                  <div class="gallery__thumbs-item swiper-slide">
+                    <img src="@img/instagram3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__main swiper">
+                <div class="swiper-wrapper">
+                  <div
+                    class="gallery__item swiper-slide"
+                    data-fancybox="gallery"
+                    data-src="@img/instagram"
+                  >
+                    <img src="@img/instagram.png" alt="" />
+                  </div>
+                  <div
+                    class="gallery__item swiper-slide"
+                    data-fancybox="gallery"
+                    data-src="@img/instagram2.pn"
+                  >
+                    <img src="@img/instagram2.png" alt="" />
+                  </div>
+                  <div
+                    class="gallery__item swiper-slide"
+                    data-fancybox="gallery"
+                    data-src="@img//instagram3.png"
+                  >
+                    <img src="@img/instagram3.png" alt="" />
+                  </div>
+                  <div
+                    class="gallery__item swiper-slide"
+                    data-fancybox="gallery"
+                    data-src="@img/instagram.png"
+                  >
+                    <img src="@img/instagram.png" alt="" />
+                  </div>
+                  <div
+                    class="gallery__item swiper-slide"
+                    data-fancybox="gallery"
+                    data-src="@img/instagram2.png"
+                  >
+                    <img src="@img/instagram2.png" alt="" />
+                  </div>
+                  <div
+                    class="gallery__item swiper-slide"
+                    data-fancybox="gallery"
+                    data-src="@img/instagram3.png"
+                  >
+                    <img src="@img/instagram3.png" alt="" />
+                  </div>
+                  <div
+                    class="gallery__item swiper-slide"
+                    data-fancybox="gallery"
+                    data-src="@img/instagram2.png"
+                  >
+                    <img src="@img/instagram2.png" alt="" />
+                  </div>
+                  <div
+                    class="gallery__item swiper-slide"
+                    data-fancybox="gallery"
+                    data-src="@img/instagram3.png"
+                  >
+                    <img src="@img/instagram3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tovar__detail">
+              <div class="tovar__title">
+                <h1>Ажурный жесткий ламбрекен Весна пришла 2м, бирюза</h1>
+                <span>В наявності</span>
+              </div>
+              <div class="tovar__price">
+                <p>3 480<span>грн/комплект</span></p>
+              </div>
+              <div class="tovar__atribute">
+                <ul>
+                    <li>Вид: жорсткий</li>
+                    <li>Колір: темно-рожевий</li>
+                    <li>Довжина по карнізу: 2 м</li>
+                </ul>
+              </div>
+              <div class="tovar__cart">
+                <form action="">
+                    <label for="">
+                        <span>-</span>
+                        <input type="number" min="1" max="25" value="1">
+                        <span>+</span>
+                    </label>
+                    <button class="btn btn-color" type="submit">В кошик</button>
+                </form>
+              </div>
+              <div class="tovar__description">
+                <h4>Опис</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/footer.html')
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
